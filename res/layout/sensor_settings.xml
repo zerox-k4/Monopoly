@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/popup_element"
+              android:layout_width="400dp"
+              android:layout_height="80dp"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/game_sensor_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/game_sensor_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="ok"/>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/card_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/card_houses_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_name"
+        android:layout_marginLeft="12dp"
+        android:text="@string/buildings"/>
+
+    <TextView
+        android:id="@+id/card_houses_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/card_houses_title"
+        android:layout_below="@id/card_name"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/sell_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/sell"/>
+
+    <Button
+        android:id="@+id/mortgage_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/sell_card"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/mortgage"/>
+
+    <Button
+        android:id="@+id/plus_card"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/mortgage_card"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/plus"/>
+
+    <Button
+        android:id="@+id/minus_card"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/plus_card"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/minus"/>
+
+</RelativeLayout>

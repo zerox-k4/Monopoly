@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="land_on_go">Land on GO Salary</string>
+    <string name="pass_go_salary">Pass GO Salary:</string>
+    <string name="initial_cash">Initial cash:</string>
+
+    <string-array name="initial_cash_options">
+        <item>$15000</item>
+        <item>$10000</item>
+        <item>$20000</item>
+    </string-array>
+
+    <string-array name="land_salary_options">
+        <item>Normal</item>
+        <item>Double</item>
+    </string-array>
+
+    <string-array name="pass_salary_options">
+        <item>$2000</item>
+        <item>$4000</item>
+    </string-array>
+</resources>
